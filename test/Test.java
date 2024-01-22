@@ -16,16 +16,16 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in); 
-               System.out.print("Input Minutes : " + input + "minutes" ); 
-               int time=input.nextInt();
-               int hour, minutes;
-                
-               hour = time/60;
-               System.out.print(hour + " Hours ");
-               
-               minutes = time%60;
-               System.out.println(minutes + " Minutes");
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input Minutes : ");
+        int time = input.nextInt();
+        int hour, minutes;
+
+        hour = time / 60;
+        System.out.print(hour + " Hours ");
+
+        minutes = time % 60;
+        System.out.println(minutes + " Minutes");
     }
-    
+
 }
